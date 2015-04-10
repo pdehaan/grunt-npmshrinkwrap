@@ -1,0 +1,42 @@
+{
+  "name": "grunt-npmshrinkwrap",
+  "description": "Grunt wrapper for npm-shrinkwrap module",
+  "version": "1.0.0",
+  "author": {
+    "name": "Peter deHaan",
+    "email": "peter@deseloper.com"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/grunt-npmshrinkwrap/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/pdehaan/grunt-npmshrinkwrap",
+  "keywords": [
+    "gruntplugin"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/pdehaan/grunt-npmshrinkwrap/blob/master/LICENSE-MIT"
+  },
+  "main": "Gruntfile.js",
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pdehaan/grunt-npmshrinkwrap.git"
+  },
+  "scripts": {
+    "test": "echo "
+  },
+  "dependencies": {
+    "grunt-nsp-shrinkwrap": "0.0.3",
+    "npm-shrinkwrap": "5.3.0",
+    "promise": "7.0.0"
+  }
+}
