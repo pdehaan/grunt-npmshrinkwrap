@@ -18,13 +18,13 @@ This task creates an npm-shrinkwrap.json file (with optional dev dependencies).
 2. Initialize the task using `initConfig()` and specify the `dev` and/or `lint` options:
     ```js
 grunt.initConfig({
-  npmShrinkwrap: {
-    options: {
-      dev: true,
-      lint: true
-    }
-  }
+      npmShrinkwrap: {
+        options: {
+          dev: true,
+          lint: true
+        }
+      }
 });
 ```
 
-    Specifying the Boolean`lint` option allows you to easily check your dependencies against the nodesecurity.io database for known vulnerabilities.
+    Specifying the Boolean`lint` option allows you to easily check your dependencies against the [nodesecurity.io](https://nodesecurity.io/advisories) database for known vulnerabilities.
